@@ -1,0 +1,12 @@
+nstep		100000
+print		1000
+mass		100.
+timestep	0.001
+harmonic	10.
+distance	2.
+initialfile	initialchain.w.xyz
+trajfile	/dev/null
+
+c_rep		0.01
+side		10.0
+kbox		0.
