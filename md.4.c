@@ -184,7 +184,7 @@ void calc_forces(){
 	    for(j=0;j<i;j++){
 		if(atomtype[i]=='B' && atomtype[j]=='B') continue;
 
-		d   = dist(i,j);
+		d   = dist(i,j_side);
 		// cutoff 
 		if(d > CUTOFF) continue;
 
